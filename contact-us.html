@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <a href="index.html">
+            <img class="logoQ" src="assets/green_logo.svg" alt="logo Quick" />
+          </a>
+          <div class="navContainer">
+            <div class="menu" id="navbar">
+              <img
+                src="assets/hamburger.svg"
+                class="menu"
+                alt="toggle"
+                id="menu"
+              />
+            </div>
+            <div class="nav" id="slideNav">
+              <ul class="navButtons show-desktop" id="navigation">
+                <li>
+                  <img
+                    src="assets/exit-btn.svg"
+                    class="exitButton"
+                    alt="exit-btn"
+                    id="exit"
+                  />
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="about-us.html">About</a></li>
+                <li>
+                  <a href="contact-us.html">Contact</a>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <main class="contact-us-main">
+      <section class="form-section">
+        <div class="info-contact-us">
+          <h1 class="contacth1">Contact us</h1>
+          <hr class="contacthr" />
+          <p class="contactp">
+            Would you like to hear more about Quickit and what we can do for
+            you, do not hesitate to get in touch. Fill out the contact form on
+            this page or get in touch directly by phone or email.
+          </p>
+        </div>
+        <div class="form-contact">
+          <form
+            name="contactus"
+            action="#thanks"
+            method="POST"
+            data-netlify="true"
+            class="form-example"
+          >
+            <div class="form-cu">
+              <label for="name">Name </label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-cu">
+              <label for="email">Email </label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="form-cu">
+              <label for="phone">Telephone</label>
+
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="(+45) 9999-9999"
+                required
+              />
+            </div>
+            <div class="form-cu">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                placeholder="Write your message here"
+                rows="3"
+                cols="25"
+              ></textarea>
+            </div>
+            <div><button class="submit-btn">Submit</button></div>
+          </form>
+
+          <div class="contact-info-icons">
+            <p class="underline">
+              <strong> Or you can contact us here:</strong>
+            </p>
+            <div class="icons-text-contact">
+              <div class="phone-div">
+                <p><strong>+45 2071 0295</strong></p>
+                <img
+                  class="small-icon-contact"
+                  src="assets/phone.svg"
+                  alt="small phone icon"
+                />
+              </div>
+              <div class="email-div">
+                <p><strong>ar@quick-it.dk</strong></p>
+                <img
+                  class="small-icon-contact"
+                  src="assets/mail.svg"
+                  alt="email small icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="img-section">
+        <img class="crop-img" src="assets/lights.png" alt="caffe lights" />
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-links">
+          <div class="footer-company-info">
+            <li>Quickit ApS</li>
+            <li>tlf: +45 20710295</li>
+            <li>Mail: ar@quick-it.dk</li>
+          </div>
+          <div class="footer-company-policies">
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>FAQ</li>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-notes">
+          <div class="footer-rights">Quickit c 2021 | All rights reserved</div>
+          <div class="footer-socials">
+            <img src="assets/linkedin.svg" class="linkedin" alt="linkedin" />
+            <img src="assets/insta.svg" class="insta" alt="instagram" />
+            <img src="assets/facebook.svg" class="facebook" alt="facebook" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
